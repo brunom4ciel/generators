@@ -1,2 +1,2 @@
 # generators
-generar scripts moa automaticamente
+benchmark moa generators

@@ -1,0 +1,1 @@
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d (DDE -s 2 -x 300 -d RDDM,FTDD,HDDM_A_Test))

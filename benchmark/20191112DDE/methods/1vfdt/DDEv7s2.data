@@ -1,0 +1,1 @@
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l trees.VFDT -d (DDE -s 2 -d FSDD,FHDDM)) 

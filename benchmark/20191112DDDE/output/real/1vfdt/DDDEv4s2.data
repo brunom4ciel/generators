@@ -1,0 +1,13 @@
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l trees.VFDT -d (DDDE -s 2 -d FSDD,FHDDM,FTDD)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/airlines.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l trees.VFDT -d (DDDE -s 2 -d FSDD,FHDDM,FTDD)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/connect4.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l trees.VFDT -d (DDDE -s 2 -d FSDD,FHDDM,FTDD)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/outdoor.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l trees.VFDT -d (DDDE -s 2 -d FSDD,FHDDM,FTDD)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/rialto.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l trees.VFDT -d (DDDE -s 2 -d FSDD,FHDDM,FTDD)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/spam_data.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l trees.VFDT -d (DDDE -s 2 -d FSDD,FHDDM,FTDD)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/wineRed.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l trees.VFDT -d (DDDE -s 2 -d FSDD,FHDDM,FTDD)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/wineWhite.arff) -r 1 -c -i -1 -f 10 -q 10

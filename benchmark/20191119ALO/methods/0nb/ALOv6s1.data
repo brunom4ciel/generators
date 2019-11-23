@@ -1,0 +1,1 @@
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l bayes.NaiveBayes -d (ALO -d FSDD,HDDM_A_Test,FHDDM)) 

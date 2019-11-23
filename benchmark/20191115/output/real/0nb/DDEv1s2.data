@@ -1,0 +1,15 @@
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l bayes.NaiveBayes -d (DDE -s 2 -d RDDM,HDDM_A_Test)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/airlines.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l bayes.NaiveBayes -d (DDE -s 2 -d RDDM,HDDM_A_Test)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/connect4.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l bayes.NaiveBayes -d (DDE -s 2 -d RDDM,HDDM_A_Test)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/outdoor.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l bayes.NaiveBayes -d (DDE -s 2 -d RDDM,HDDM_A_Test)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/rialto.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l bayes.NaiveBayes -d (DDE -s 2 -d RDDM,HDDM_A_Test)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/spam_data.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l bayes.NaiveBayes -d (DDE -s 2 -d RDDM,HDDM_A_Test)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/weather.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l bayes.NaiveBayes -d (DDE -s 2 -d RDDM,HDDM_A_Test)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/wineRed.arff) -r 1 -c -i -1 -f 10 -q 10
+
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l bayes.NaiveBayes -d (DDE -s 2 -d RDDM,HDDM_A_Test)) -s (ArffFileStream -f /opt/moamanager/moa/datasets/wineWhite.arff) -r 1 -c -i -1 -f 10 -q 10

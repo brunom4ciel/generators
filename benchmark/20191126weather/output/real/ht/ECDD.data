@@ -1,0 +1,1 @@
+EvaluatePrequentialUFPEforDetectors -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d EWMAChartDM) -s (ArffFileStream -f /opt/moamanager/moa/datasets/weather.arff) -r 1 -c -i -1 -f 10 -q 10
